@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: none;
+    font-family: "Fira Sans", sans-serif;
+    position: static;
+    z-index: 1;
+}
+/* my codeing start  */
+/* nav icon and nav logo code start  */
+.header_section{
+    background-color: rgb(0, 0, 0);
+ 
+ 
+}
+#menu_icon {
+    display: none;
+ 
+}
+1111
+.nav_icon{
+    display: flex;
+    font-size: 1.5rem;
+    color: #fff;
+    margin-right: 20px;
+    margin-top: 1px;
+}
+.nav_icon i{
+    margin: 0.5rem;
+}
+
+
+
+/* nav icon and nav logo code end */
+/* nav code start  */
+nav{
+background-color: rgb(0, 0, 0,0.8);
+}
+.navbar {
+    transition: top 0.5s;
+}
+.nav_link{
+    color: rgb(255, 255, 255);
+}
+.logo_remove{
+width: 60%;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+}
+/* nav code end  */
+/* carusel code start  */
+#custom_carusel{
+    background-color: black;
+    width: 100%;
+    height: auto;
+    /* padding: 4rem 0rem 1rem 0; */
+       
+}
+.carusel_1{
+    text-align: left;
+    font-size: 1.5rem;
+    background-color: rgb(0, 0, 0);
+    width: 30vw;
+    margin-top: 10px;
+    margin-left: -131px;
+    font-family: "IBM Plex Serif", serif;
+   
+}
+
+
+.carusel_p{
+    margin-top: -6px;
+    margin-left: -130px;
+   
+    width: 37vw;
+    text-align: left;
+    background-color: rgb(0, 0, 0,0.5);
+    font-family: "IBM Plex Serif", serif;
+}
+#multipul_carousel{
+    background-color: black;
+    padding: 3rem;
+ 
+}
+#multipul_carousel img{
+    width: 270px;
+    height: 230px;
+    border: 5px solid #8b9e75;
+    transition: 0.6s;
+}
+#multipul_carousel img:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+.col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+  }
+  .col-md-3 img{
+    width:100%;
+    height:auto;
+  }
+  body .carousel-indicators li{
+    background-color:rgb(0, 0, 0,0.5);
+  }
+  body .carousel-control-prev-icon,
+  body .carousel-control-next-icon{
+    background-color:rgb(0, 0, 0,0.5);
+  }
+  body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+  }
+/* carusel code end */
+/* customize extensible support section start  */
+#in_one{
+   
+    background-color: rgb(0, 0, 0);
+    padding: 3rem;
+
+}
+.speed{
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    position: relative;
+}
+.speed_desc{
+    position: absolute;
+    top: -8px;
+    left: 150px;
+    color: #ffffff;
+}
+.desc_h2{
+    text-align: center;
+  
+}
+.desc_p{
+    text-align: center;
+}
+/* customize extensible support section end */
+/* catalist section start  */
+#catalist_section{
+    background-color: rgb(0, 0, 0);
+   
+   
+}
+.catalist_desc{
+    text-align: center;
+}
+.catalist_h1{
+    font-size: 1.6rem;
+    color: #ffffff;
+    text-align: center;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.catalist_h2{
+    font-size: 1.2rem;
+    color: #a69e9e;
+    text-align: center;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.catalist_btn button{
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0),rgb(0, 0, 0,0.7), rgb(0, 0, 0),rgb(0, 0, 0));
+    color: #ffffff ;
+    padding: 1rem 1rem;
+    cursor: pointer;
+    box-shadow: 5px 1px 5px 5px rgb(27, 27, 27,0.5);
+   
+}
+.catalist_btn button:hover{
+    background-color: lightblue;
+
+}
+.four_image img{
+width: 250px;
+height: 200px;
+margin: 10px;
+padding: 1rem;
+transition: 0.3s;
+}
+.four_image img:hover{
+    transform: scale(1.2);
+    }
+.four_prev{
+    display: none;
+}
+.custom_masud {
+     background-image: url(asset/icon/circle-plus-solid.svg); 
+     border: 1px #fff;
+}
+.next-icon {
+    background-color: none;
+}
+/* catalist section end  */
+/* advance option start  */
+#advance_section{
+    background-color: rgb(0, 0, 0);
+    padding: 2rem;
+    position: relative;
+}
+.advance_icon i{
+    font-size: 2rem;
+    color: #7d7d7d;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+}
+.advance_desc{
+    text-align: left;
+}
+.advance_desc h3{
+    font-size: 1.5rem;
+    color: #5f5d5d; 
+
+}
+.advance_desc p{
+    font-size: 1rem;
+    color: #5f5d5d; 
+    
+}
+
+/* advance option end  */
+#lorem_contant{
+    background-color: black;
+    padding: 1rem;
+    text-align: center;
+}
+.lorem_desc h4{
+    font-size: 1.2rem;
+    color: #5f5d5d; 
+
+}
+/* section title start  */
+
+/* section title end */
+.title_desc img{
+    width: 70px;
+    height: 70px;
+    padding: 3px;
+    border-radius: 5px;
+    transition: 0.3s;
+
+}
+.title_desc img:hover{
+    border: 2px solid red;
+    transform: scale(1.08);
+}
+#last_section{
+    background-color: black;
+    padding: 2rem;
+}
+.title_desc h5{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.title_desc p{
+    color: #5f5d5d;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
+/* footer section start  */
+#custom_footer{
+    background-color: rgb(0, 0, 0,0.9);
+    padding: 1.5rem;
+    line-height: 2vh;
+}
+.foter_desc p{
+    text-align: center;
+    color: #fff;
+}
+/* footer section end  */
+/* my codeing end */
+
+
+
+
+
+
+
+/* reset code */
+.custom_hr{
+    border: 1px solid rgb(122, 122, 122);
+
+}
+hr {
+    margin-top: 8rem;
+    margin-bottom: 0rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
